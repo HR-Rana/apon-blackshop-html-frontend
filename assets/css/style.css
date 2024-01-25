@@ -37,6 +37,9 @@ Table of Contents
    License: none (public domain)
 */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
 
 
 
@@ -555,9 +558,11 @@ h6 {
   font-weight: 700;
   letter-spacing: .5px;
   font-family: 'Passion One', sans-serif;
+  /* font-family: 'Passion One', sans-serif; */
   /* font-family: "Montserrat", sans-serif; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
+  letter-spacing: 1px !important;
 }
 
 h1 {
@@ -689,7 +694,7 @@ i {
 /* view more items buttton in section  */
 
 
-.container  button {
+.container button {
   height: 50px;
   font-weight: 600;
   background-color: var(--primaryColor);
@@ -736,8 +741,9 @@ header {
 .navigation-area .navItems-area ul li {
   position: relative;
 }
-.navigation-area .navItems-area ul li i{
- font-size: 22px;
+
+.navigation-area .navItems-area ul li i {
+  font-size: 22px;
 }
 
 .navigation-area .navItems-area ul li ul {
@@ -941,6 +947,7 @@ header {
 
 .blackshop-topup-content h4 {
   font-size: 24px;
+  color: var(--lightWhite) ;
 }
 
 .blackshop-topup-content p {
@@ -1242,6 +1249,60 @@ header {
 
 
 
+
+
+
+
+/* Testimonials / Review page */
+
+.review-card {
+  margin: 15px 0;
+  background-color: var(--lightWhite);
+  border-radius: var(--borderRadius);
+  -webkit-border-radius: var(--borderRadius);
+  -moz-border-radius: var(--borderRadius);
+  -ms-border-radius: var(--borderRadius);
+  -o-border-radius: var(--borderRadius);
+}
+.review-card {
+  margin: 15px 0;
+}
+.review-card .header{
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+}
+.review-card .header i{
+  font-size: 32px;
+  padding: 5px;
+  color: var(--lightBlack);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.review-card p, h4{
+  color: var(--lightBlack);
+}
+
+.review-card .rating{
+  margin: 15px 0;
+  color: var(--secondaryColor);
+}
+
+
+
+
+
+
+
+
+
+
 /* footer section area */
 
 
@@ -1300,13 +1361,15 @@ footer .footer-card .social-icons span:nth-child(3) {
 footer .footer-card .social-icons span:nth-child(4) {
   background-color: rgb(176, 2, 2);
 }
-.footer-card img{
+
+.footer-card img {
   width: 50%;
 }
+
 footer ul li {
   display: flex;
   align-items: center;
-  font-size:16px;
+  font-size: 16px;
 }
 
 footer ul li a {
