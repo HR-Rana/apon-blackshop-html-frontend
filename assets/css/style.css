@@ -1285,7 +1285,10 @@ header {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.review-card p, h4{
+.review-card h4{
+  color: var(--lightBlack);
+}
+.review-card p{
   color: var(--lightBlack);
 }
 
