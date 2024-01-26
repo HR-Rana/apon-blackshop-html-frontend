@@ -1116,7 +1116,7 @@ header {
   justify-content: space-between;
 }
 
-.buy-topup-page .topup-list ul li {
+.topup-list ul li {
   width: 48%;
   padding: 15px 0;
   text-align: center;
@@ -1125,6 +1125,7 @@ header {
   font-weight: 700;
   font-size: 20px;
   border: 2px solid white;
+  background-color: rgb(247, 247, 247);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.300);
   cursor: pointer;
   transition: .4s;
@@ -1138,6 +1139,7 @@ header {
   -ms-transition: .4s;
   -o-transition: .4s;
 }
+
 
 .buy-topup-page .topup-list ul li:hover {
   border: 2px solid var(--border);
@@ -1345,16 +1347,92 @@ header {
   -ms-border-radius: var(--borderRadius);
   -o-border-radius: var(--borderRadius);
 }
-.Chekout-option ul{
+
+.Chekout-option ul {
   text-align: center;
 }
-.Chekout-option ul li{
+
+.Chekout-option ul li {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
   font-size: 18px;
   margin: 10px 0;
 }
+
+
+
+
+
+
+
+
+
+
+/* Product cart page styles */
+
+.cart-add-list {
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+  color: var(--lightBlack);
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.300);
+  cursor: pointer;
+  transition: .4s;
+  border-radius: var(--borderRadius);
+  -webkit-border-radius: var(--borderRadius);
+  -moz-border-radius: var(--borderRadius);
+  -ms-border-radius: var(--borderRadius);
+  -o-border-radius: var(--borderRadius);
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.cart-add-list li{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  list-style: none;
+}
+.cart-add-list .quantity{
+  width: 26%;
+  background-color: red;
+}
+.cart-add-list .quantity input{
+  width: 50px;
+  display: flex;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.cart-add-list .quantity button{
+
+  background-color: yellow;
+}
+.cart-add-list .quantity i{
+  font-size: 14px;
+}
+.cart-add-list span{
+  width: 30%;
+  padding: 10px;
+}
+.cart-add-list button{
+  width: 80%;
+  padding: 10px;
+  border: none;
+  font-size: 12px !important;
+}
+
+
+
+
 
 
 
