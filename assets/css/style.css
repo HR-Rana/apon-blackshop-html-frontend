@@ -1337,6 +1337,7 @@ footer .footer-card {
   text-align: center;
   height: 270px;
   padding: 25px;
+  margin: 15px 0;
   background-color: var(--lightWhite);
   color: var(--lightBlack);
   border-radius: var(--borderRadius);

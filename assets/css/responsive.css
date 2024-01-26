@@ -60,25 +60,56 @@
         color: black;
     }
 
+    footer .footer-card .social-icons{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7px;
+        font-size: 24px;
+        color: var(--lightWhite);
+    }
+    footer .footer-card .social-icons span{
+        margin: 5px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
-@media (min-width: 480px) and (max-width: 767px) {}
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+    /* .item-card .card-header img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    } */
+}
 
 /* Extra Small Devices, Phones */
 @media (min-width: 320px) and (max-width: 478px) {
     .navigation-area .navItems-area nav {
         width: 80%;
     }
-    .navigation-area ul li a{
-       font-size: 16px !important;
+
+    .navigation-area ul li a {
+        font-size: 16px !important;
     }
 
     .mobile-icons i {
         position: absolute;
         top: -10px;
-        right:-10px;
+        right: -10px;
         font-size: 24px;
         color: var(--lightWhite) !important;
+    }
+
+    .col-xs-6 {
+        width: 48% !important;
+    }
+
+
+    footer .footer-card .social-icons span {
+        padding: 7px;
+        font-size: 24px;
+        color: var(--lightWhite);
     }
 }
